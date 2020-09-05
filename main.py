@@ -11,5 +11,6 @@ ite = 0
 while n > ite:
     ite = ite + 1
     n = n - ite
+    print('*'*ite)
 
 print('Se forma la piramide completa hasta el nivel:', ite)
